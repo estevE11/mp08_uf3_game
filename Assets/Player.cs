@@ -5,9 +5,15 @@ public class Player : MonoBehaviour
     private CharacterController controller;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
-    private float playerSpeed = 2.0f;
+    public float playerSpeed = 2.0f;
     private float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
+
+    private bool w = false;
+    private bool a = false;
+    private bool s = false;
+    private bool d = false;
+    private bool space = false;
 
     private void Start()
     {
@@ -22,36 +28,27 @@ public class Player : MonoBehaviour
             playerVelocity.y = 0f;
         }
 
-        if(Input.GetKeyDown(KeyCode.W)) {
-            playerVelocity.z = 5;
-        }
+        if(Input.GetKeyDown(KeyCode.W)) w = true;
+        if(Input.GetKeyUp(KeyCode.W)) w = false;
 
-        if(Input.GetKeyUp(KeyCode.W)) {
-            playerVelocity.z = 0;
-        }
+        if(Input.GetKeyDown(KeyCode.S)) s = true;
+        if(Input.GetKeyUp(KeyCode.S)) s = false;
 
-        if(Input.GetKeyDown(KeyCode.S)) {
-            playerVelocity.z = -5;
-        }
+        if(Input.GetKeyDown(KeyCode.D)) d = true;
+        if(Input.GetKeyUp(KeyCode.D)) d = false;
 
-        if(Input.GetKeyUp(KeyCode.S)) {
-            playerVelocity.z = 0;
-        }
-        if(Input.GetKeyDown(KeyCode.D)) {
-            playerVelocity.x = 5;
-        }
+        if(Input.GetKeyDown(KeyCode.A)) a = true;
+        if(Input.GetKeyUp(KeyCode.A)) a = false;
 
-        if(Input.GetKeyUp(KeyCode.D)) {
-            playerVelocity.x = 0;
-        }
+        if(Input.GetKeyDown(KeyCode.Space)) space = true;
+        if(Input.GetKeyUp(KeyCode.Space)) space = false;
 
-        if(Input.GetKeyDown(KeyCode.A)) {
-            playerVelocity.x = -5;
-        }
+        playerVelocity = new Vector3(0, playerVelocity.y, 0);
 
-        if(Input.GetKeyUp(KeyCode.A)) {
-            playerVelocity.x = 0;
-        }
+        if (w) playerVelocity.z = playerSpeed;
+        if (a) playerVelocity.x = -playerSpeed;
+        if (s) playerVelocity.z = -playerSpeed;
+        if (d) playerVelocity.x = playerSpeed;
 
 /*
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -61,15 +58,14 @@ public class Player : MonoBehaviour
         {
             gameObject.transform.forward = move;
         }
-
+*/
         // Changes the height position of the player..
-        if (Input.GetButtonDown("Jump") && groundedPlayer)
+        if (space && groundedPlayer)
         {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
         }
 
-        */
-        playerVelocity.y += gravityValue * Time.deltaTime;
+        if(!groundedPlayer) playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
     }
 }

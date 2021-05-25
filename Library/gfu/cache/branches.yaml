@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-05-25T14:03:05.017+02:00
-  initializedAtString: 2021-05-25T14:03:04.860+02:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2021-05-26T00:42:52.468+02:00
+  initializedAtString: 2021-05-26T00:42:52.446+02:00
+  localBranches:
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/estevE11/mp08_uf3_game
@@ -26,12 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/estevE11/mp08_uf3_game
+      trackingBranch: main
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/estevE11/mp08_uf3_game
+        trackingBranch: 
   configRemotes:
     keys:
     - origin

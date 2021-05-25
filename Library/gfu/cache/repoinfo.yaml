@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-05-25T13:59:27.228+02:00
-  initializedAtString: 2021-05-25T13:55:16.515+02:00
+  lastUpdatedAtString: 2021-05-26T00:42:52.437+02:00
+  initializedAtString: 2021-05-25T23:50:14.748+02:00
   currentGitRemote:
-    name: 
-    url: 
+    name: origin
+    url: https://github.com/estevE11/mp08_uf3_game
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: 
+    name: main
+    tracking: origin/main
   currentConfigBranch:
-    name: master
+    name: main
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/estevE11/mp08_uf3_game
+    trackingBranch: main
   currentConfigRemote:
-    name: 
-    url: 
+    name: origin
+    url: https://github.com/estevE11/mp08_uf3_game
   currentHead: 

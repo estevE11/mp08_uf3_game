@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -24,6 +22,38 @@ public class Player : MonoBehaviour
             playerVelocity.y = 0f;
         }
 
+        if(Input.GetKeyDown(KeyCode.W)) {
+            playerVelocity.z = 5;
+        }
+
+        if(Input.GetKeyUp(KeyCode.W)) {
+            playerVelocity.z = 0;
+        }
+
+        if(Input.GetKeyDown(KeyCode.S)) {
+            playerVelocity.z = -5;
+        }
+
+        if(Input.GetKeyUp(KeyCode.S)) {
+            playerVelocity.z = 0;
+        }
+        if(Input.GetKeyDown(KeyCode.D)) {
+            playerVelocity.x = 5;
+        }
+
+        if(Input.GetKeyUp(KeyCode.D)) {
+            playerVelocity.x = 0;
+        }
+
+        if(Input.GetKeyDown(KeyCode.A)) {
+            playerVelocity.x = -5;
+        }
+
+        if(Input.GetKeyUp(KeyCode.A)) {
+            playerVelocity.x = 0;
+        }
+
+/*
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         controller.Move(move * Time.deltaTime * playerSpeed);
 
@@ -38,6 +68,7 @@ public class Player : MonoBehaviour
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
         }
 
+        */
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
     }

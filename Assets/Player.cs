@@ -1,65 +1,36 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    private Rigidbody rb;
     private CharacterController controller;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
     public float playerSpeed = 2.0f;
-    private float jumpHeight = 1.0f;
+    public float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
-
-    private bool w = false;
-    private bool a = false;
-    private bool s = false;
-    private bool d = false;
-    private bool space = false;
+    private int score = 0;
+    public int maxHealth = 4;
+    private int health;
+    public Text text_score;
+    public Text text_health;
 
     private void Start()
     {
-        controller = gameObject.GetComponent<CharacterController>();
+        rb = GetComponent<Rigidbody>();
+        controller = GetComponent<CharacterController>();
+        health = maxHealth;
+        text_health.text = "Health: " + health;
     }
 
     void Update()
     {
-        groundedPlayer = controller.isGrounded;
-        if (groundedPlayer && playerVelocity.y < 0)
-        {
-            playerVelocity.y = 0f;
-        }
+        rb.AddForce(new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"))*playerSpeed);
 
-        if(Input.GetKeyDown(KeyCode.W)) w = true;
-        if(Input.GetKeyUp(KeyCode.W)) w = false;
+        if (Input.GetButtonDown("Jump")) rb.AddForce(Vector3.up*jumpHeight, ForceMode.Impulse);
 
-        if(Input.GetKeyDown(KeyCode.S)) s = true;
-        if(Input.GetKeyUp(KeyCode.S)) s = false;
-
-        if(Input.GetKeyDown(KeyCode.D)) d = true;
-        if(Input.GetKeyUp(KeyCode.D)) d = false;
-
-        if(Input.GetKeyDown(KeyCode.A)) a = true;
-        if(Input.GetKeyUp(KeyCode.A)) a = false;
-
-        if(Input.GetKeyDown(KeyCode.Space)) space = true;
-        if(Input.GetKeyUp(KeyCode.Space)) space = false;
-
-        playerVelocity = new Vector3(0, playerVelocity.y, 0);
-
-        if (w) playerVelocity.z = playerSpeed;
-        if (a) playerVelocity.x = -playerSpeed;
-        if (s) playerVelocity.z = -playerSpeed;
-        if (d) playerVelocity.x = playerSpeed;
-
-/*
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        controller.Move(move * Time.deltaTime * playerSpeed);
-
-        if (move != Vector3.zero)
-        {
-            gameObject.transform.forward = move;
-        }
-*/
-        // Changes the height position of the player..
+        /*
         if (space && groundedPlayer)
         {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
@@ -67,5 +38,36 @@ public class Player : MonoBehaviour
 
         if(!groundedPlayer) playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
+        */
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.gameObject.CompareTag("coin")) {
+            other.gameObject.SetActive(false);
+            addScore(1);
+        }
+        if (other.gameObject.CompareTag("specialcoin")) {
+            other.gameObject.SetActive(false);
+            addScore(10);
+        }
+        if (other.gameObject.CompareTag("hp")) {
+            other.gameObject.SetActive(false);
+            addHealth(1);
+        }
+    }
+
+    private void addScore(int sc) {
+        score += sc;
+        text_score.text = "Score: " + score;
+    }
+
+    private void addHealth(int hp) {
+        health += hp;
+        text_health.text = "Health: " + health;
+    }
+
+    private void takeDamage(int dmg) {
+        health -= dmg;
+        text_health.text = "Health: " + health;
     }
 }

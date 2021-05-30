@@ -13,9 +13,2474 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-05-28T00:02:26.436+02:00
-  initializedAtString: 2021-05-27T22:01:49.987+02:00
+  lastUpdatedAtString: 2021-05-31T01:24:33.378+02:00
+  initializedAtString: 2021-05-31T00:20:38.998+02:00
   log:
+  - commitID: 3e61a82a6dc6ec0ebd141f0185a86ee409d7bf6a
+    mergeA: 
+    mergeB: 
+    authorName: Roger Esteve
+    authorEmail: rogeresteve30@gmail.com
+    commitEmail: rogeresteve30@gmail.com
+    commitName: Roger Esteve
+    summary: too many changes
+    description: '- player movement
+
+      - coins
+
+      - special coins
+
+      -
+      enemies (visual)
+
+      - score
+
+      - hp
+
+      - hp coins
+
+      -
+      jumping'
+    timeString: 2021-05-28T00:45:22.000+02:00
+    commitTimeString: 2021-05-28T00:45:22.000+02:00
+    changes:
+    - path: .vs\mp08_uf3_game\v16\.suo
+      fullPath: E:\dev\unity\mp08_uf3_game\.vs\mp08_uf3_game\v16\.suo
+      projectPath: .vs\mp08_uf3_game\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: E:\dev\unity\mp08_uf3_game\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: E:\dev\unity\mp08_uf3_game\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\CameraMovement.cs
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\CameraMovement.cs
+      projectPath: Assets\CameraMovement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Coin.prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Coin.prefab
+      projectPath: Assets\Coin.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Coin.prefab.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Coin.prefab.meta
+      projectPath: Assets\Coin.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy.prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Enemy.prefab
+      projectPath: Assets\Enemy.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy.prefab.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Enemy.prefab.meta
+      projectPath: Assets\Enemy.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HP.prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\HP.prefab
+      projectPath: Assets\HP.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HP.prefab.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\HP.prefab.meta
+      projectPath: Assets\HP.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\New Material.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\New Material.mat
+      projectPath: Assets\New Material.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\New Material.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\New Material.mat.meta
+      projectPath: Assets\New Material.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player.cs
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Player.cs
+      projectPath: Assets\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player.prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Player.prefab
+      projectPath: Assets\Player.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials.meta
+      projectPath: Assets\Procedural_Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles.unity
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles.unity
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles.unity.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles.unity.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\LightingData.asset
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles\LightingData.asset
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\LightingData.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\LightingData.asset.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles\LightingData.asset.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\LightingData.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\ReflectionProbe-0.exr
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles\ReflectionProbe-0.exr
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\ReflectionProbe-0.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\ReflectionProbe-0.exr.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles\ReflectionProbe-0.exr.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\ReflectionProbe-0.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\ReflectionProbe-1.exr
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles\ReflectionProbe-1.exr
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\ReflectionProbe-1.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\ReflectionProbe-1.exr.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        Tiles\ReflectionProbe-1.exr.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor Tiles\ReflectionProbe-1.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor TilesSettings.lighting
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        TilesSettings.lighting
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor TilesSettings.lighting
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Floor TilesSettings.lighting.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Floor
+        TilesSettings.lighting.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Floor TilesSettings.lighting.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Material.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Material.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Material.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Material\Floor Tiles.sbsar
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Material\Floor
+        Tiles.sbsar
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Material\Floor Tiles.sbsar
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Material\Floor Tiles.sbsar.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Material\Floor
+        Tiles.sbsar.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Material\Floor Tiles.sbsar.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Materials.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Materials.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Materials\Tile-Example.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Materials\Tile-Example.mat
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Materials\Tile-Example.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Materials\Tile-Example.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Materials\Tile-Example.mat.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Materials\Tile-Example.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (1).prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere
+        (1).prefab
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (1).prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (1).prefab.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere
+        (1).prefab.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (1).prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (2).prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere
+        (2).prefab
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (2).prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (2).prefab.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere
+        (2).prefab.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (2).prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (3).prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere
+        (3).prefab
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (3).prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (3).prefab.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere
+        (3).prefab.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere (3).prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere.prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere.prefab
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere.prefab.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere.prefab.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Prefabs\Sphere.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Textures.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Textures.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Textures\Tile-Example.jpg
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Textures\Tile-Example.jpg
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Textures\Tile-Example.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Procedural_Materials\Floor Tiles\Textures\Tile-Example.jpg.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Procedural_Materials\Floor Tiles\Textures\Tile-Example.jpg.meta
+      projectPath: Assets\Procedural_Materials\Floor Tiles\Textures\Tile-Example.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RotationController.cs
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\RotationController.cs
+      projectPath: Assets\RotationController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RotationController.cs.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\RotationController.cs.meta
+      projectPath: Assets\RotationController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Special Coin.prefab
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Special Coin.prefab
+      projectPath: Assets\Special Coin.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Special Coin.prefab.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Special Coin.prefab.meta
+      projectPath: Assets\Special Coin.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture.meta
+      projectPath: Assets\Stylize Wood Texture.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials.meta
+      projectPath: Assets\Stylize Wood Texture\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials\Stylize Wood  Diffuse.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials\Stylize
+        Wood  Diffuse.mat
+      projectPath: Assets\Stylize Wood Texture\Materials\Stylize Wood  Diffuse.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials\Stylize Wood  Diffuse.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials\Stylize
+        Wood  Diffuse.mat.meta
+      projectPath: Assets\Stylize Wood Texture\Materials\Stylize Wood  Diffuse.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials\Stylize Wood .mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials\Stylize
+        Wood .mat
+      projectPath: Assets\Stylize Wood Texture\Materials\Stylize Wood .mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials\Stylize Wood .mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials\Stylize
+        Wood .mat.meta
+      projectPath: Assets\Stylize Wood Texture\Materials\Stylize Wood .mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials\vol_2_3_Base_Color.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials\vol_2_3_Base_Color.mat
+      projectPath: Assets\Stylize Wood Texture\Materials\vol_2_3_Base_Color.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials\vol_2_3_Base_Color.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials\vol_2_3_Base_Color.mat.meta
+      projectPath: Assets\Stylize Wood Texture\Materials\vol_2_3_Base_Color.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials\vol_2_3_Height.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials\vol_2_3_Height.mat
+      projectPath: Assets\Stylize Wood Texture\Materials\vol_2_3_Height.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Materials\vol_2_3_Height.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Materials\vol_2_3_Height.mat.meta
+      projectPath: Assets\Stylize Wood Texture\Materials\vol_2_3_Height.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Scene.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Scene.meta
+      projectPath: Assets\Stylize Wood Texture\Scene.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Scene\Stylize Wood Texture.unity
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Scene\Stylize
+        Wood Texture.unity
+      projectPath: Assets\Stylize Wood Texture\Scene\Stylize Wood Texture.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Scene\Stylize Wood Texture.unity.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Scene\Stylize
+        Wood Texture.unity.meta
+      projectPath: Assets\Stylize Wood Texture\Scene\Stylize Wood Texture.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures.meta
+      projectPath: Assets\Stylize Wood Texture\Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Ambient_Occlusion.png
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Ambient_Occlusion.png
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Ambient_Occlusion.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Ambient_Occlusion.png.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Ambient_Occlusion.png.meta
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Ambient_Occlusion.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Base_Color.png
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Base_Color.png
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Base_Color.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Base_Color.png.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Base_Color.png.meta
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Base_Color.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Height.png
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Height.png
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Height.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Height.png.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Height.png.meta
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Height.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Normal.png
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Normal.png
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Normal.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Normal.png.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Normal.png.meta
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Normal.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Roughness.png
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Roughness.png
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Roughness.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Stylize Wood Texture\Textures\vol_2_3_Roughness.png.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Stylize Wood Texture\Textures\vol_2_3_Roughness.png.meta
+      projectPath: Assets\Stylize Wood Texture\Textures\vol_2_3_Roughness.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks.meta
+      projectPath: Assets\Worn Wooden Planks.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\Example Scene.unity
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\Example Scene.unity
+      projectPath: Assets\Worn Wooden Planks\Example Scene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\Example Scene.unity.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\Example Scene.unity.meta
+      projectPath: Assets\Worn Wooden Planks\Example Scene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\Example SceneSettings.lighting
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\Example SceneSettings.lighting
+      projectPath: Assets\Worn Wooden Planks\Example SceneSettings.lighting
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\Example SceneSettings.lighting.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\Example SceneSettings.lighting.meta
+      projectPath: Assets\Worn Wooden Planks\Example SceneSettings.lighting.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\Skybox.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\Skybox.mat
+      projectPath: Assets\Worn Wooden Planks\Skybox.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\Skybox.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\Skybox.mat.meta
+      projectPath: Assets\Worn Wooden Planks\Skybox.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\Wood_Planks.sbsar
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\Wood_Planks.sbsar
+      projectPath: Assets\Worn Wooden Planks\Wood_Planks.sbsar
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\Wood_Planks.sbsar.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\Wood_Planks.sbsar.meta
+      projectPath: Assets\Worn Wooden Planks\Wood_Planks.sbsar.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\corsica_beach.exr
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\corsica_beach.exr
+      projectPath: Assets\Worn Wooden Planks\corsica_beach.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Worn Wooden Planks\corsica_beach.exr.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\Worn Wooden Planks\corsica_beach.exr.meta
+      projectPath: Assets\Worn Wooden Planks\corsica_beach.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\mat_coin.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\mat_coin.mat
+      projectPath: Assets\mat_coin.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\mat_coin.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\mat_coin.mat.meta
+      projectPath: Assets\mat_coin.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\mat_emeny_part1.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\mat_emeny_part1.mat
+      projectPath: Assets\mat_emeny_part1.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\mat_emeny_part1.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\mat_emeny_part1.mat.meta
+      projectPath: Assets\mat_emeny_part1.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\mat_enemy_part2.mat
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\mat_enemy_part2.mat
+      projectPath: Assets\mat_enemy_part2.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\mat_enemy_part2.mat.meta
+      fullPath: E:\dev\unity\mp08_uf3_game\Assets\mat_enemy_part2.mat.meta
+      projectPath: Assets\mat_enemy_part2.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\00\007429cdc8efefe57165e3ded4861c5d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\00\007429cdc8efefe57165e3ded4861c5d
+      projectPath: Library\Artifacts\00\007429cdc8efefe57165e3ded4861c5d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\00\00a7b145f35e710a443d3e682536701e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\00\00a7b145f35e710a443d3e682536701e
+      projectPath: Library\Artifacts\00\00a7b145f35e710a443d3e682536701e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\01\013b855140b5c02eead3a65812376b09
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\01\013b855140b5c02eead3a65812376b09
+      projectPath: Library\Artifacts\01\013b855140b5c02eead3a65812376b09
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\01\01d0b4b77ff061db681ca4e849b1cf4e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\01\01d0b4b77ff061db681ca4e849b1cf4e
+      projectPath: Library\Artifacts\01\01d0b4b77ff061db681ca4e849b1cf4e
+      originalPath: Library\Artifacts\a4\a4336cd2c68469c200f3ed80c0b805cf
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\01\01ebbd7a7b96b8b2ab32c37e9bb81c1c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\01\01ebbd7a7b96b8b2ab32c37e9bb81c1c
+      projectPath: Library\Artifacts\01\01ebbd7a7b96b8b2ab32c37e9bb81c1c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\03\032fa7a0a6ed1522878b5574706df8e6
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\03\032fa7a0a6ed1522878b5574706df8e6
+      projectPath: Library\Artifacts\03\032fa7a0a6ed1522878b5574706df8e6
+      originalPath: Library\Artifacts\8d\8dba92658732889072cc89b86156daf7
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\03\034284556bf96d33afc4c1e867aca562
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\03\034284556bf96d33afc4c1e867aca562
+      projectPath: Library\Artifacts\03\034284556bf96d33afc4c1e867aca562
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\04\0473b8217cfe7f1f4d7a7df382b67edf
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\04\0473b8217cfe7f1f4d7a7df382b67edf
+      projectPath: Library\Artifacts\04\0473b8217cfe7f1f4d7a7df382b67edf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\05\0572f973d3dccb8ca1f8ff1d165dc56e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\05\0572f973d3dccb8ca1f8ff1d165dc56e
+      projectPath: Library\Artifacts\05\0572f973d3dccb8ca1f8ff1d165dc56e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\05\05c20489e80842a9804bce9bfd3bf014
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\05\05c20489e80842a9804bce9bfd3bf014
+      projectPath: Library\Artifacts\05\05c20489e80842a9804bce9bfd3bf014
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\05\05de300d0c7ae2ba707e3fa3cb6c7383
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\05\05de300d0c7ae2ba707e3fa3cb6c7383
+      projectPath: Library\Artifacts\05\05de300d0c7ae2ba707e3fa3cb6c7383
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\05\05e357f44d6636cb81db2b42f72f38a1
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\05\05e357f44d6636cb81db2b42f72f38a1
+      projectPath: Library\Artifacts\05\05e357f44d6636cb81db2b42f72f38a1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\06\067374ca8c308a32d8e1e3da362a317f
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\06\067374ca8c308a32d8e1e3da362a317f
+      projectPath: Library\Artifacts\06\067374ca8c308a32d8e1e3da362a317f
+      originalPath: Library\Artifacts\be\bedb713d5caf36cc39d74d055e3c4fad
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\09\095c78efb9c1d42aba23839e36b8fcbf
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\09\095c78efb9c1d42aba23839e36b8fcbf
+      projectPath: Library\Artifacts\09\095c78efb9c1d42aba23839e36b8fcbf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\09\09f288190c85e788cb16755e7c26c234
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\09\09f288190c85e788cb16755e7c26c234
+      projectPath: Library\Artifacts\09\09f288190c85e788cb16755e7c26c234
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\0e\0efed6312ca6a0c2021624d3093f00f3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\0e\0efed6312ca6a0c2021624d3093f00f3
+      projectPath: Library\Artifacts\0e\0efed6312ca6a0c2021624d3093f00f3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\0f\0f3c53db34e7b96f773a02cb31e37545
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\0f\0f3c53db34e7b96f773a02cb31e37545
+      projectPath: Library\Artifacts\0f\0f3c53db34e7b96f773a02cb31e37545
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\10\10b18a5d2b2c3ef447969fbd4ebb331b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\10\10b18a5d2b2c3ef447969fbd4ebb331b
+      projectPath: Library\Artifacts\10\10b18a5d2b2c3ef447969fbd4ebb331b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\11\114ee1083cf590072a37fa146ccaa3d5
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\11\114ee1083cf590072a37fa146ccaa3d5
+      projectPath: Library\Artifacts\11\114ee1083cf590072a37fa146ccaa3d5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\13\136e53f7a1317b055acd8fd06b129dc3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\13\136e53f7a1317b055acd8fd06b129dc3
+      projectPath: Library\Artifacts\13\136e53f7a1317b055acd8fd06b129dc3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\13\138919d08b6b06cdfa6276fdf46c4216
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\13\138919d08b6b06cdfa6276fdf46c4216
+      projectPath: Library\Artifacts\13\138919d08b6b06cdfa6276fdf46c4216
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\14\14336c546e56b0bad5ac1d7f6be1063d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\14\14336c546e56b0bad5ac1d7f6be1063d
+      projectPath: Library\Artifacts\14\14336c546e56b0bad5ac1d7f6be1063d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\14\14e8137dad73e8f3552e72cc5a236f18
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\14\14e8137dad73e8f3552e72cc5a236f18
+      projectPath: Library\Artifacts\14\14e8137dad73e8f3552e72cc5a236f18
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\15\15e4780d439bae65cfdf17eff88a4725
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\15\15e4780d439bae65cfdf17eff88a4725
+      projectPath: Library\Artifacts\15\15e4780d439bae65cfdf17eff88a4725
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\19\19d337e2dc07c6198ec06f180dfa6b2c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\19\19d337e2dc07c6198ec06f180dfa6b2c
+      projectPath: Library\Artifacts\19\19d337e2dc07c6198ec06f180dfa6b2c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1b\1b3b2f0d84d573d539f8a571430cfbe3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\1b\1b3b2f0d84d573d539f8a571430cfbe3
+      projectPath: Library\Artifacts\1b\1b3b2f0d84d573d539f8a571430cfbe3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1c\1c167256f331674edfcdd345c15fa128
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\1c\1c167256f331674edfcdd345c15fa128
+      projectPath: Library\Artifacts\1c\1c167256f331674edfcdd345c15fa128
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1c\1cf7b5bbfbbcd4f4e2b094162f032a5f
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\1c\1cf7b5bbfbbcd4f4e2b094162f032a5f
+      projectPath: Library\Artifacts\1c\1cf7b5bbfbbcd4f4e2b094162f032a5f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\1e\1e1a31509ebb7f5bfa612db98e40e65d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\1e\1e1a31509ebb7f5bfa612db98e40e65d
+      projectPath: Library\Artifacts\1e\1e1a31509ebb7f5bfa612db98e40e65d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+      projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\20\20f3bab7f9cccc440fdc21d9a933db9a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\20\20f3bab7f9cccc440fdc21d9a933db9a
+      projectPath: Library\Artifacts\20\20f3bab7f9cccc440fdc21d9a933db9a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
+      projectPath: Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\22\2285ba9892ba614d8eda156d73c4736b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\22\2285ba9892ba614d8eda156d73c4736b
+      projectPath: Library\Artifacts\22\2285ba9892ba614d8eda156d73c4736b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\23\23318cf341f8825ea7fcbbc8c3c438ef
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\23\23318cf341f8825ea7fcbbc8c3c438ef
+      projectPath: Library\Artifacts\23\23318cf341f8825ea7fcbbc8c3c438ef
+      originalPath: Library\Artifacts\e0\e0bb71dfc9aa7189aee12d627716b4d3
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\26\267e626022c0c67e3f615d44dd18162d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\26\267e626022c0c67e3f615d44dd18162d
+      projectPath: Library\Artifacts\26\267e626022c0c67e3f615d44dd18162d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\28\280e430cd32e2a399d7c6a028be9ca83
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\28\280e430cd32e2a399d7c6a028be9ca83
+      projectPath: Library\Artifacts\28\280e430cd32e2a399d7c6a028be9ca83
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\28\28863b98f66be08863b50a8782a580e1
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\28\28863b98f66be08863b50a8782a580e1
+      projectPath: Library\Artifacts\28\28863b98f66be08863b50a8782a580e1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\28\28d0c7c1597b4cd9ed79087be1cba5fd
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\28\28d0c7c1597b4cd9ed79087be1cba5fd
+      projectPath: Library\Artifacts\28\28d0c7c1597b4cd9ed79087be1cba5fd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\29\29450ca28ab9fad3839eaa18150a6fe9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\29\29450ca28ab9fad3839eaa18150a6fe9
+      projectPath: Library\Artifacts\29\29450ca28ab9fad3839eaa18150a6fe9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2a\2af78d9fcd64bcf88c874542af8a27fc
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\2a\2af78d9fcd64bcf88c874542af8a27fc
+      projectPath: Library\Artifacts\2a\2af78d9fcd64bcf88c874542af8a27fc
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\2b\2b68789e2d8ace7efed76d700316fee8
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\2b\2b68789e2d8ace7efed76d700316fee8
+      projectPath: Library\Artifacts\2b\2b68789e2d8ace7efed76d700316fee8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2c\2cf557e380d3c2b61d1ed93fafa3382a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\2c\2cf557e380d3c2b61d1ed93fafa3382a
+      projectPath: Library\Artifacts\2c\2cf557e380d3c2b61d1ed93fafa3382a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2e\2e163f98a6cde4e51f9ed13889698a1b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\2e\2e163f98a6cde4e51f9ed13889698a1b
+      projectPath: Library\Artifacts\2e\2e163f98a6cde4e51f9ed13889698a1b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
+      projectPath: Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2f\2f4dc30e79df8e85ed1741fab6eb6a57
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\2f\2f4dc30e79df8e85ed1741fab6eb6a57
+      projectPath: Library\Artifacts\2f\2f4dc30e79df8e85ed1741fab6eb6a57
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\33\339ef440f583e69eb2eddf02dd5012e9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\33\339ef440f583e69eb2eddf02dd5012e9
+      projectPath: Library\Artifacts\33\339ef440f583e69eb2eddf02dd5012e9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\34\341dd9a6b0b7de24aa65b45b40eb239a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\34\341dd9a6b0b7de24aa65b45b40eb239a
+      projectPath: Library\Artifacts\34\341dd9a6b0b7de24aa65b45b40eb239a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\34\34ac9ee04c7f436fdc3534251f91d973
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\34\34ac9ee04c7f436fdc3534251f91d973
+      projectPath: Library\Artifacts\34\34ac9ee04c7f436fdc3534251f91d973
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\35\35def34a39193460a17ed1fbe7093ae9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\35\35def34a39193460a17ed1fbe7093ae9
+      projectPath: Library\Artifacts\35\35def34a39193460a17ed1fbe7093ae9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\36\36aa57ef6a01c4911b42d4a091bbba86
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\36\36aa57ef6a01c4911b42d4a091bbba86
+      projectPath: Library\Artifacts\36\36aa57ef6a01c4911b42d4a091bbba86
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\37\379ef50757fbccf61b60f4145e306369
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\37\379ef50757fbccf61b60f4145e306369
+      projectPath: Library\Artifacts\37\379ef50757fbccf61b60f4145e306369
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\38\3843d38d2de5d2544020006445ade4cf
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\38\3843d38d2de5d2544020006445ade4cf
+      projectPath: Library\Artifacts\38\3843d38d2de5d2544020006445ade4cf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\3a\3a6a5ed89b25a9fc77632129ac9e7f1e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\3a\3a6a5ed89b25a9fc77632129ac9e7f1e
+      projectPath: Library\Artifacts\3a\3a6a5ed89b25a9fc77632129ac9e7f1e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\3a\3a80b68ec0c8459ae77448136e472459
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\3a\3a80b68ec0c8459ae77448136e472459
+      projectPath: Library\Artifacts\3a\3a80b68ec0c8459ae77448136e472459
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3b\3b306c4c4f85ae046d34901ea538169c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\3b\3b306c4c4f85ae046d34901ea538169c
+      projectPath: Library\Artifacts\3b\3b306c4c4f85ae046d34901ea538169c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3b\3b3f3d1839e36727b9c82135963e59b6
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\3b\3b3f3d1839e36727b9c82135963e59b6
+      projectPath: Library\Artifacts\3b\3b3f3d1839e36727b9c82135963e59b6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\3c\3c649df29722ba871227399330733b7d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\3c\3c649df29722ba871227399330733b7d
+      projectPath: Library\Artifacts\3c\3c649df29722ba871227399330733b7d
+      originalPath: Library\Artifacts\f3\f3c8ba9a7f9bb6118181e7649d4800fe
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\3c\3c720463e3d3dbfaf37650fda92f013f
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\3c\3c720463e3d3dbfaf37650fda92f013f
+      projectPath: Library\Artifacts\3c\3c720463e3d3dbfaf37650fda92f013f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\3f\3f18a0134f24a813d904883b456dec24
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\3f\3f18a0134f24a813d904883b456dec24
+      projectPath: Library\Artifacts\3f\3f18a0134f24a813d904883b456dec24
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3f\3fe109a9e09fcf57198529c994fbc06c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\3f\3fe109a9e09fcf57198529c994fbc06c
+      projectPath: Library\Artifacts\3f\3fe109a9e09fcf57198529c994fbc06c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\42\42ad42c46c97aa34ad23b80deddb4916
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\42\42ad42c46c97aa34ad23b80deddb4916
+      projectPath: Library\Artifacts\42\42ad42c46c97aa34ad23b80deddb4916
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\43\43e64f82385397ee84501960396cbdba
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\43\43e64f82385397ee84501960396cbdba
+      projectPath: Library\Artifacts\43\43e64f82385397ee84501960396cbdba
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\44\44d03b974d97576c8462ad812e484a92
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\44\44d03b974d97576c8462ad812e484a92
+      projectPath: Library\Artifacts\44\44d03b974d97576c8462ad812e484a92
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\44\44f35516f12d4dda71ee4a554bdfd549
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\44\44f35516f12d4dda71ee4a554bdfd549
+      projectPath: Library\Artifacts\44\44f35516f12d4dda71ee4a554bdfd549
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\45\457333a5c732ea1cbcbd738008090759
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\45\457333a5c732ea1cbcbd738008090759
+      projectPath: Library\Artifacts\45\457333a5c732ea1cbcbd738008090759
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\46\4619a821d14c7fbbf98868d41b27c0aa
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\46\4619a821d14c7fbbf98868d41b27c0aa
+      projectPath: Library\Artifacts\46\4619a821d14c7fbbf98868d41b27c0aa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\47\476c9bd73672fb786122bfb78f2b542e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\47\476c9bd73672fb786122bfb78f2b542e
+      projectPath: Library\Artifacts\47\476c9bd73672fb786122bfb78f2b542e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\47\479573b3641d79afc783a326228113b7
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\47\479573b3641d79afc783a326228113b7
+      projectPath: Library\Artifacts\47\479573b3641d79afc783a326228113b7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\47\47d353491a7e73977f269512780bdbb2
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\47\47d353491a7e73977f269512780bdbb2
+      projectPath: Library\Artifacts\47\47d353491a7e73977f269512780bdbb2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\47\47fa728eb0f4b016b3b6c63fcdb47f14
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\47\47fa728eb0f4b016b3b6c63fcdb47f14
+      projectPath: Library\Artifacts\47\47fa728eb0f4b016b3b6c63fcdb47f14
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\49\49332b889a9ab84b2a279b203291d6c9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\49\49332b889a9ab84b2a279b203291d6c9
+      projectPath: Library\Artifacts\49\49332b889a9ab84b2a279b203291d6c9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\49\49d487b11e6190f310922a0aeadbc82e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\49\49d487b11e6190f310922a0aeadbc82e
+      projectPath: Library\Artifacts\49\49d487b11e6190f310922a0aeadbc82e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\4c\4c80a481c2556eca9afcef2604813ff9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\4c\4c80a481c2556eca9afcef2604813ff9
+      projectPath: Library\Artifacts\4c\4c80a481c2556eca9afcef2604813ff9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\4d\4d183bff286a5d696c448d96ef101a3f
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\4d\4d183bff286a5d696c448d96ef101a3f
+      projectPath: Library\Artifacts\4d\4d183bff286a5d696c448d96ef101a3f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
+      projectPath: Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\4d\4dd6f2b2c4c46ca4f29f19c6f55d9f62
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\4d\4dd6f2b2c4c46ca4f29f19c6f55d9f62
+      projectPath: Library\Artifacts\4d\4dd6f2b2c4c46ca4f29f19c6f55d9f62
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\4d\4de9665f7ec1ecfcadffe95705cc8e73
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\4d\4de9665f7ec1ecfcadffe95705cc8e73
+      projectPath: Library\Artifacts\4d\4de9665f7ec1ecfcadffe95705cc8e73
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\4e\4e4db8f5ecd15e9c20454f9b95c7e8b9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\4e\4e4db8f5ecd15e9c20454f9b95c7e8b9
+      projectPath: Library\Artifacts\4e\4e4db8f5ecd15e9c20454f9b95c7e8b9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\4e\4e6849a0081823a16d0d1dbd04b1feea
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\4e\4e6849a0081823a16d0d1dbd04b1feea
+      projectPath: Library\Artifacts\4e\4e6849a0081823a16d0d1dbd04b1feea
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\4f\4fa111e09bcf3c7094431886bbfc87b9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\4f\4fa111e09bcf3c7094431886bbfc87b9
+      projectPath: Library\Artifacts\4f\4fa111e09bcf3c7094431886bbfc87b9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\50\5067187b30333caaa5cfd0476da448ca
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\50\5067187b30333caaa5cfd0476da448ca
+      projectPath: Library\Artifacts\50\5067187b30333caaa5cfd0476da448ca
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\51\51098f5726a68497298915b4480f7af3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\51\51098f5726a68497298915b4480f7af3
+      projectPath: Library\Artifacts\51\51098f5726a68497298915b4480f7af3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\52\5286a40b5a4ef11101828786da5bdce4
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\52\5286a40b5a4ef11101828786da5bdce4
+      projectPath: Library\Artifacts\52\5286a40b5a4ef11101828786da5bdce4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\53\533dc7134d772944f3920d49865dedea
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\53\533dc7134d772944f3920d49865dedea
+      projectPath: Library\Artifacts\53\533dc7134d772944f3920d49865dedea
+      originalPath: Library\Artifacts\f3\f3ed12632b42c40841d01e6749b62e02
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\53\53f424cd5f1c6abe398d24f77508f1c6
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\53\53f424cd5f1c6abe398d24f77508f1c6
+      projectPath: Library\Artifacts\53\53f424cd5f1c6abe398d24f77508f1c6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\55\55859cd1be74bae0374598d42dc1bcef
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\55\55859cd1be74bae0374598d42dc1bcef
+      projectPath: Library\Artifacts\55\55859cd1be74bae0374598d42dc1bcef
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\55\5592ca73230e166119acb8f536cd4800
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\55\5592ca73230e166119acb8f536cd4800
+      projectPath: Library\Artifacts\55\5592ca73230e166119acb8f536cd4800
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\55\55ac37f23a4b122100e04384c1911977
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\55\55ac37f23a4b122100e04384c1911977
+      projectPath: Library\Artifacts\55\55ac37f23a4b122100e04384c1911977
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\56\5675aa5a482028202b61717aae51e97e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\56\5675aa5a482028202b61717aae51e97e
+      projectPath: Library\Artifacts\56\5675aa5a482028202b61717aae51e97e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\57\577976999f6954ffe78b2dbc5da2b14d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\57\577976999f6954ffe78b2dbc5da2b14d
+      projectPath: Library\Artifacts\57\577976999f6954ffe78b2dbc5da2b14d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\57\57c4484ae9472337b3800d8ae1e03e7d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\57\57c4484ae9472337b3800d8ae1e03e7d
+      projectPath: Library\Artifacts\57\57c4484ae9472337b3800d8ae1e03e7d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\5a\5af2bbd721a9da7522d845ff86482e76
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\5a\5af2bbd721a9da7522d845ff86482e76
+      projectPath: Library\Artifacts\5a\5af2bbd721a9da7522d845ff86482e76
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\5b\5b26994a6d5cdd9a8ea77c9495a6621b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\5b\5b26994a6d5cdd9a8ea77c9495a6621b
+      projectPath: Library\Artifacts\5b\5b26994a6d5cdd9a8ea77c9495a6621b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\5b\5baec978edb8a9353151354c942b5a22
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\5b\5baec978edb8a9353151354c942b5a22
+      projectPath: Library\Artifacts\5b\5baec978edb8a9353151354c942b5a22
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\5d\5daaf29a33664aa98461368c4c3220a3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\5d\5daaf29a33664aa98461368c4c3220a3
+      projectPath: Library\Artifacts\5d\5daaf29a33664aa98461368c4c3220a3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\64\64bbfb02b7ff5983000525bffa022ce4
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\64\64bbfb02b7ff5983000525bffa022ce4
+      projectPath: Library\Artifacts\64\64bbfb02b7ff5983000525bffa022ce4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\66\667309e4495019213e2f1b9c364a79e0
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\66\667309e4495019213e2f1b9c364a79e0
+      projectPath: Library\Artifacts\66\667309e4495019213e2f1b9c364a79e0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\67\676f68367527c3d3db023dc8f8cd786d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\67\676f68367527c3d3db023dc8f8cd786d
+      projectPath: Library\Artifacts\67\676f68367527c3d3db023dc8f8cd786d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\6a\6a949e8b5f77ec0d7a2418be9d31b228
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\6a\6a949e8b5f77ec0d7a2418be9d31b228
+      projectPath: Library\Artifacts\6a\6a949e8b5f77ec0d7a2418be9d31b228
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\6a\6ad1adabdd51a75bd0f814fb7883747d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\6a\6ad1adabdd51a75bd0f814fb7883747d
+      projectPath: Library\Artifacts\6a\6ad1adabdd51a75bd0f814fb7883747d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\6b\6be817483043fec3c80d58997d602dd0
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\6b\6be817483043fec3c80d58997d602dd0
+      projectPath: Library\Artifacts\6b\6be817483043fec3c80d58997d602dd0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\6c\6cc7703a447cfa9c84e176f97f90062d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\6c\6cc7703a447cfa9c84e176f97f90062d
+      projectPath: Library\Artifacts\6c\6cc7703a447cfa9c84e176f97f90062d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\6f\6f22677e51f028b51e6c296559ff7361
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\6f\6f22677e51f028b51e6c296559ff7361
+      projectPath: Library\Artifacts\6f\6f22677e51f028b51e6c296559ff7361
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\6f\6f2b544e0cd0f1aead107c5593b9f009
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\6f\6f2b544e0cd0f1aead107c5593b9f009
+      projectPath: Library\Artifacts\6f\6f2b544e0cd0f1aead107c5593b9f009
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\70\701b50b14d4eed126856013c0f4fe977
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\70\701b50b14d4eed126856013c0f4fe977
+      projectPath: Library\Artifacts\70\701b50b14d4eed126856013c0f4fe977
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\73\733072f474a039af14b1953b137e23c4
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\73\733072f474a039af14b1953b137e23c4
+      projectPath: Library\Artifacts\73\733072f474a039af14b1953b137e23c4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\73\7378dd943a7f31091f9a39fc0163c3a9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\73\7378dd943a7f31091f9a39fc0163c3a9
+      projectPath: Library\Artifacts\73\7378dd943a7f31091f9a39fc0163c3a9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\75\75586ce86c34f2ec537b7f9cc58d69f5
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\75\75586ce86c34f2ec537b7f9cc58d69f5
+      projectPath: Library\Artifacts\75\75586ce86c34f2ec537b7f9cc58d69f5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\76\76e6f8ba59bbd73da47bffd885037983
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\76\76e6f8ba59bbd73da47bffd885037983
+      projectPath: Library\Artifacts\76\76e6f8ba59bbd73da47bffd885037983
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\78\781c0cad02cbb33cc3be473ac67c8315
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\78\781c0cad02cbb33cc3be473ac67c8315
+      projectPath: Library\Artifacts\78\781c0cad02cbb33cc3be473ac67c8315
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\78\783a09ad2ca136101bf0b7eec87a61c9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\78\783a09ad2ca136101bf0b7eec87a61c9
+      projectPath: Library\Artifacts\78\783a09ad2ca136101bf0b7eec87a61c9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\7b\7b26c33f0db7c228f88a07011c206148
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\7b\7b26c33f0db7c228f88a07011c206148
+      projectPath: Library\Artifacts\7b\7b26c33f0db7c228f88a07011c206148
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\7b\7bfee580cfe8e2eb2cd8fa5cc1b4e08d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\7b\7bfee580cfe8e2eb2cd8fa5cc1b4e08d
+      projectPath: Library\Artifacts\7b\7bfee580cfe8e2eb2cd8fa5cc1b4e08d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\7f\7fec49f54ded056079fc35c95aa0b26d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\7f\7fec49f54ded056079fc35c95aa0b26d
+      projectPath: Library\Artifacts\7f\7fec49f54ded056079fc35c95aa0b26d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\7f\7ff41fc52a3deda571d37914e2b54ea0
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\7f\7ff41fc52a3deda571d37914e2b54ea0
+      projectPath: Library\Artifacts\7f\7ff41fc52a3deda571d37914e2b54ea0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\80\808165543f2c5d917679d76a88ba6dc2
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\80\808165543f2c5d917679d76a88ba6dc2
+      projectPath: Library\Artifacts\80\808165543f2c5d917679d76a88ba6dc2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\82\8280fe6f8c2eda57d54792db57b958ee
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\82\8280fe6f8c2eda57d54792db57b958ee
+      projectPath: Library\Artifacts\82\8280fe6f8c2eda57d54792db57b958ee
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\83\837aa38f1aa3b0a430a8cc619ebb24e3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\83\837aa38f1aa3b0a430a8cc619ebb24e3
+      projectPath: Library\Artifacts\83\837aa38f1aa3b0a430a8cc619ebb24e3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\83\83cf4acef2d12c9dd1d2db486613d8e0
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\83\83cf4acef2d12c9dd1d2db486613d8e0
+      projectPath: Library\Artifacts\83\83cf4acef2d12c9dd1d2db486613d8e0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\83\83f55ef4cfd232178ec5b13fe940e6b8
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\83\83f55ef4cfd232178ec5b13fe940e6b8
+      projectPath: Library\Artifacts\83\83f55ef4cfd232178ec5b13fe940e6b8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\84\848e4ac02b81c47b8ae9ada3a496faf1
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\84\848e4ac02b81c47b8ae9ada3a496faf1
+      projectPath: Library\Artifacts\84\848e4ac02b81c47b8ae9ada3a496faf1
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\84\8499e5309439d4af47ced19cc6ce6f3b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\84\8499e5309439d4af47ced19cc6ce6f3b
+      projectPath: Library\Artifacts\84\8499e5309439d4af47ced19cc6ce6f3b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\86\863a30b17ac630e01b86576b297bf5a3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\86\863a30b17ac630e01b86576b297bf5a3
+      projectPath: Library\Artifacts\86\863a30b17ac630e01b86576b297bf5a3
+      originalPath: Library\Artifacts\b5\b5050205a0bb9799d7c07336dc2fb810
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\87\87401b7304f6e6ec1f697900fb9911d6
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\87\87401b7304f6e6ec1f697900fb9911d6
+      projectPath: Library\Artifacts\87\87401b7304f6e6ec1f697900fb9911d6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\87\877183abe668c2850b0c531703c3d2e4
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\87\877183abe668c2850b0c531703c3d2e4
+      projectPath: Library\Artifacts\87\877183abe668c2850b0c531703c3d2e4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\88\88c9caed5392c12a65d07367323fcf0e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\88\88c9caed5392c12a65d07367323fcf0e
+      projectPath: Library\Artifacts\88\88c9caed5392c12a65d07367323fcf0e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\8a\8ae1a8953b44de3b7a120ca09a9ea3c8
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\8a\8ae1a8953b44de3b7a120ca09a9ea3c8
+      projectPath: Library\Artifacts\8a\8ae1a8953b44de3b7a120ca09a9ea3c8
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\8d\8d2e73b554906000015d0ab5ed0b1fdd
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\8d\8d2e73b554906000015d0ab5ed0b1fdd
+      projectPath: Library\Artifacts\8d\8d2e73b554906000015d0ab5ed0b1fdd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\8e\8eb53934724c4d12a9e4619fa4af253a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\8e\8eb53934724c4d12a9e4619fa4af253a
+      projectPath: Library\Artifacts\8e\8eb53934724c4d12a9e4619fa4af253a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\8e\8edaaecbddbd4724c4100c5fe6211957
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\8e\8edaaecbddbd4724c4100c5fe6211957
+      projectPath: Library\Artifacts\8e\8edaaecbddbd4724c4100c5fe6211957
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\8f\8fc840d0bc78122b69836b331e580cb1
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\8f\8fc840d0bc78122b69836b331e580cb1
+      projectPath: Library\Artifacts\8f\8fc840d0bc78122b69836b331e580cb1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\90\90a3cea47f9b58e8e3256a07efd798f9
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\90\90a3cea47f9b58e8e3256a07efd798f9
+      projectPath: Library\Artifacts\90\90a3cea47f9b58e8e3256a07efd798f9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\92\921ff56b26e19127faaf715870da1dfa
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\92\921ff56b26e19127faaf715870da1dfa
+      projectPath: Library\Artifacts\92\921ff56b26e19127faaf715870da1dfa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\92\925ad4506e3f115d46f591ead409d72a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\92\925ad4506e3f115d46f591ead409d72a
+      projectPath: Library\Artifacts\92\925ad4506e3f115d46f591ead409d72a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\92\92afd7052dfe41f279bd5d0deb835def
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\92\92afd7052dfe41f279bd5d0deb835def
+      projectPath: Library\Artifacts\92\92afd7052dfe41f279bd5d0deb835def
+      originalPath: Library\Artifacts\89\89d620388b034f704751de58c2cf3332
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\96\9627595bf87664e7915afe245564c549
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\96\9627595bf87664e7915afe245564c549
+      projectPath: Library\Artifacts\96\9627595bf87664e7915afe245564c549
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\96\968c378ad5b692266e661ee3313c4d3a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\96\968c378ad5b692266e661ee3313c4d3a
+      projectPath: Library\Artifacts\96\968c378ad5b692266e661ee3313c4d3a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\99\9929ef5954473dc765f16aac183418e5
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\99\9929ef5954473dc765f16aac183418e5
+      projectPath: Library\Artifacts\99\9929ef5954473dc765f16aac183418e5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\99\997c84a7304b1ccd1eeebc79bebf3a4d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\99\997c84a7304b1ccd1eeebc79bebf3a4d
+      projectPath: Library\Artifacts\99\997c84a7304b1ccd1eeebc79bebf3a4d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\9a\9af4bfa95dc2ae9b5d27f24ebe0bfbd1
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\9a\9af4bfa95dc2ae9b5d27f24ebe0bfbd1
+      projectPath: Library\Artifacts\9a\9af4bfa95dc2ae9b5d27f24ebe0bfbd1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\9b\9b08f02dbc0521bf5ad002c295becf0f
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\9b\9b08f02dbc0521bf5ad002c295becf0f
+      projectPath: Library\Artifacts\9b\9b08f02dbc0521bf5ad002c295becf0f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\9e\9e0ef278ca8500aa085fb1538ce42e2b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\9e\9e0ef278ca8500aa085fb1538ce42e2b
+      projectPath: Library\Artifacts\9e\9e0ef278ca8500aa085fb1538ce42e2b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a0\a035ecf2f3c63464efa5f5fc443560e2
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a0\a035ecf2f3c63464efa5f5fc443560e2
+      projectPath: Library\Artifacts\a0\a035ecf2f3c63464efa5f5fc443560e2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a0\a0a6b4cd9bc9f428ff5466f1129cdc17
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a0\a0a6b4cd9bc9f428ff5466f1129cdc17
+      projectPath: Library\Artifacts\a0\a0a6b4cd9bc9f428ff5466f1129cdc17
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a1\a143d83253c2f43cb18f1c93a033823a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a1\a143d83253c2f43cb18f1c93a033823a
+      projectPath: Library\Artifacts\a1\a143d83253c2f43cb18f1c93a033823a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a1\a193a49bd4314c230eb4da1c4b8047c2
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a1\a193a49bd4314c230eb4da1c4b8047c2
+      projectPath: Library\Artifacts\a1\a193a49bd4314c230eb4da1c4b8047c2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a1\a1b3bf697588ec771cca289092d5ffce
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a1\a1b3bf697588ec771cca289092d5ffce
+      projectPath: Library\Artifacts\a1\a1b3bf697588ec771cca289092d5ffce
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a3\a3de8a618fd66677752bae353bae54ad
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a3\a3de8a618fd66677752bae353bae54ad
+      projectPath: Library\Artifacts\a3\a3de8a618fd66677752bae353bae54ad
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a4\a47bc8ad43de2ba0ba7352cf0e15e96e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a4\a47bc8ad43de2ba0ba7352cf0e15e96e
+      projectPath: Library\Artifacts\a4\a47bc8ad43de2ba0ba7352cf0e15e96e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a5\a59ea83077fbcfc609d7f7971de6c61e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a5\a59ea83077fbcfc609d7f7971de6c61e
+      projectPath: Library\Artifacts\a5\a59ea83077fbcfc609d7f7971de6c61e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a6\a63a0603e158e007320cb336e7dcbdf0
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a6\a63a0603e158e007320cb336e7dcbdf0
+      projectPath: Library\Artifacts\a6\a63a0603e158e007320cb336e7dcbdf0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a7\a787c8b5748badce334d44a23e7542d1
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a7\a787c8b5748badce334d44a23e7542d1
+      projectPath: Library\Artifacts\a7\a787c8b5748badce334d44a23e7542d1
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\a8\a8611c9dd17bf432424a299162d9897b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a8\a8611c9dd17bf432424a299162d9897b
+      projectPath: Library\Artifacts\a8\a8611c9dd17bf432424a299162d9897b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\a9\a92ab11d7eee1179646f4b3e470528cb
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\a9\a92ab11d7eee1179646f4b3e470528cb
+      projectPath: Library\Artifacts\a9\a92ab11d7eee1179646f4b3e470528cb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ac\ac096da6606e1a4b25637db6eeea2aec
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ac\ac096da6606e1a4b25637db6eeea2aec
+      projectPath: Library\Artifacts\ac\ac096da6606e1a4b25637db6eeea2aec
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ad\ade78be392f3fc7597e4c48ea3571682
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ad\ade78be392f3fc7597e4c48ea3571682
+      projectPath: Library\Artifacts\ad\ade78be392f3fc7597e4c48ea3571682
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\af\aff2230ac93553db4502459f9e7c1c8d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\af\aff2230ac93553db4502459f9e7c1c8d
+      projectPath: Library\Artifacts\af\aff2230ac93553db4502459f9e7c1c8d
+      originalPath: Library\Artifacts\40\4066ba2e617adc24786086790399cc31
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\b3\b3ae6ea1ab612e4c3f77a00989a41184
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\b3\b3ae6ea1ab612e4c3f77a00989a41184
+      projectPath: Library\Artifacts\b3\b3ae6ea1ab612e4c3f77a00989a41184
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\b5\b5e527ad82d4a91017c53445788d255e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\b5\b5e527ad82d4a91017c53445788d255e
+      projectPath: Library\Artifacts\b5\b5e527ad82d4a91017c53445788d255e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\b7\b736110392e803609aa32e851f053068
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\b7\b736110392e803609aa32e851f053068
+      projectPath: Library\Artifacts\b7\b736110392e803609aa32e851f053068
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b9\b92c741240e66bebea35410aae37e6ec
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\b9\b92c741240e66bebea35410aae37e6ec
+      projectPath: Library\Artifacts\b9\b92c741240e66bebea35410aae37e6ec
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ba\ba9ba751bead5d589e877bdcd367b8a3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ba\ba9ba751bead5d589e877bdcd367b8a3
+      projectPath: Library\Artifacts\ba\ba9ba751bead5d589e877bdcd367b8a3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ba\bad43b10cb54e4142818ec79db349a4d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ba\bad43b10cb54e4142818ec79db349a4d
+      projectPath: Library\Artifacts\ba\bad43b10cb54e4142818ec79db349a4d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ba\baede5e4cf2e404065374423d1e80d2d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ba\baede5e4cf2e404065374423d1e80d2d
+      projectPath: Library\Artifacts\ba\baede5e4cf2e404065374423d1e80d2d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\bb\bb8d8b72be8d498c26d280fe21734ce8
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\bb\bb8d8b72be8d498c26d280fe21734ce8
+      projectPath: Library\Artifacts\bb\bb8d8b72be8d498c26d280fe21734ce8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\bc\bc8023c260a3e711046c996e6192f42d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\bc\bc8023c260a3e711046c996e6192f42d
+      projectPath: Library\Artifacts\bc\bc8023c260a3e711046c996e6192f42d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c0\c03059daffd21592bc54470040d9b8b4
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c0\c03059daffd21592bc54470040d9b8b4
+      projectPath: Library\Artifacts\c0\c03059daffd21592bc54470040d9b8b4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c1\c17ac51624ad5e3be65abfaa1aaed857
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c1\c17ac51624ad5e3be65abfaa1aaed857
+      projectPath: Library\Artifacts\c1\c17ac51624ad5e3be65abfaa1aaed857
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c1\c18d5f460ad370a2219303c73f9d1b7a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c1\c18d5f460ad370a2219303c73f9d1b7a
+      projectPath: Library\Artifacts\c1\c18d5f460ad370a2219303c73f9d1b7a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c2\c22685ac8799771c0b6ed31ed2ed84f4
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c2\c22685ac8799771c0b6ed31ed2ed84f4
+      projectPath: Library\Artifacts\c2\c22685ac8799771c0b6ed31ed2ed84f4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c2\c2912a28218c3ec73b5773fc0501069a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c2\c2912a28218c3ec73b5773fc0501069a
+      projectPath: Library\Artifacts\c2\c2912a28218c3ec73b5773fc0501069a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c5\c507c37184e0917c2f22b2922e14adad
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c5\c507c37184e0917c2f22b2922e14adad
+      projectPath: Library\Artifacts\c5\c507c37184e0917c2f22b2922e14adad
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c6\c6fcd946a982f1044c233a8866a6455d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c6\c6fcd946a982f1044c233a8866a6455d
+      projectPath: Library\Artifacts\c6\c6fcd946a982f1044c233a8866a6455d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c7\c73edecc835d454bd42af94507a2e836
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c7\c73edecc835d454bd42af94507a2e836
+      projectPath: Library\Artifacts\c7\c73edecc835d454bd42af94507a2e836
+      originalPath: Library\Artifacts\6f\6f0fef2c48a7573263460e95a846674c
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\c8\c8c1c5ddb2d10610af3454a3f5171bc5
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c8\c8c1c5ddb2d10610af3454a3f5171bc5
+      projectPath: Library\Artifacts\c8\c8c1c5ddb2d10610af3454a3f5171bc5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c9\c95a5958ab279650dc62b8d6896361c7
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\c9\c95a5958ab279650dc62b8d6896361c7
+      projectPath: Library\Artifacts\c9\c95a5958ab279650dc62b8d6896361c7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ca\ca535f41b9942832197da264b70888af
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ca\ca535f41b9942832197da264b70888af
+      projectPath: Library\Artifacts\ca\ca535f41b9942832197da264b70888af
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ce\ce73fb5caac06039470000368c643611
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ce\ce73fb5caac06039470000368c643611
+      projectPath: Library\Artifacts\ce\ce73fb5caac06039470000368c643611
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d0\d04ad38ccd8989cca4c156e6361b8fde
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d0\d04ad38ccd8989cca4c156e6361b8fde
+      projectPath: Library\Artifacts\d0\d04ad38ccd8989cca4c156e6361b8fde
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d0\d0673a386366e4d3f456baded43f3541
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d0\d0673a386366e4d3f456baded43f3541
+      projectPath: Library\Artifacts\d0\d0673a386366e4d3f456baded43f3541
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d0\d07991fe8ab3615d930c3e43483f3195
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d0\d07991fe8ab3615d930c3e43483f3195
+      projectPath: Library\Artifacts\d0\d07991fe8ab3615d930c3e43483f3195
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d0\d09800c558d909d837645465b943381b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d0\d09800c558d909d837645465b943381b
+      projectPath: Library\Artifacts\d0\d09800c558d909d837645465b943381b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d1\d1c9bbebd77def24a1e90ce384ddb733
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d1\d1c9bbebd77def24a1e90ce384ddb733
+      projectPath: Library\Artifacts\d1\d1c9bbebd77def24a1e90ce384ddb733
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d1\d1cd9ded89b091527a071c625900d95e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d1\d1cd9ded89b091527a071c625900d95e
+      projectPath: Library\Artifacts\d1\d1cd9ded89b091527a071c625900d95e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d2\d21663149fe3ba79292ce7b987ef0c88
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d2\d21663149fe3ba79292ce7b987ef0c88
+      projectPath: Library\Artifacts\d2\d21663149fe3ba79292ce7b987ef0c88
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d2\d253bfc97c8094b30b008a0c4c8c703f
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d2\d253bfc97c8094b30b008a0c4c8c703f
+      projectPath: Library\Artifacts\d2\d253bfc97c8094b30b008a0c4c8c703f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d2\d25d49ae949a45f74372aa2492269ec7
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d2\d25d49ae949a45f74372aa2492269ec7
+      projectPath: Library\Artifacts\d2\d25d49ae949a45f74372aa2492269ec7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d2\d2bbd9eb1459267797f9be9b317c3d65
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d2\d2bbd9eb1459267797f9be9b317c3d65
+      projectPath: Library\Artifacts\d2\d2bbd9eb1459267797f9be9b317c3d65
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d3\d38aab87e48d6a1e10f27dadeb9e627b
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d3\d38aab87e48d6a1e10f27dadeb9e627b
+      projectPath: Library\Artifacts\d3\d38aab87e48d6a1e10f27dadeb9e627b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d3\d3e0e948326ae710b31ab9fd43431adf
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d3\d3e0e948326ae710b31ab9fd43431adf
+      projectPath: Library\Artifacts\d3\d3e0e948326ae710b31ab9fd43431adf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d4\d44ccec313b3ce6f5324bddf07ae3b9c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d4\d44ccec313b3ce6f5324bddf07ae3b9c
+      projectPath: Library\Artifacts\d4\d44ccec313b3ce6f5324bddf07ae3b9c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d5\d5444d63d6ee6100ca48aee3dace217a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d5\d5444d63d6ee6100ca48aee3dace217a
+      projectPath: Library\Artifacts\d5\d5444d63d6ee6100ca48aee3dace217a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d5\d5b788ad253121065cef574d533b034f
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d5\d5b788ad253121065cef574d533b034f
+      projectPath: Library\Artifacts\d5\d5b788ad253121065cef574d533b034f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d6\d67944b6fe672786bb7fc9ffa15946a6
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d6\d67944b6fe672786bb7fc9ffa15946a6
+      projectPath: Library\Artifacts\d6\d67944b6fe672786bb7fc9ffa15946a6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d6\d6f59078112d91a0b49d9994224b4356
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d6\d6f59078112d91a0b49d9994224b4356
+      projectPath: Library\Artifacts\d6\d6f59078112d91a0b49d9994224b4356
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d7\d76ce1bda6674145388e664132da6167
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d7\d76ce1bda6674145388e664132da6167
+      projectPath: Library\Artifacts\d7\d76ce1bda6674145388e664132da6167
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d7\d7dca4f2a1d9bd7257fb2446418f4d2c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d7\d7dca4f2a1d9bd7257fb2446418f4d2c
+      projectPath: Library\Artifacts\d7\d7dca4f2a1d9bd7257fb2446418f4d2c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d7\d7e68bb36d4d2b70f6da918d97244045
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d7\d7e68bb36d4d2b70f6da918d97244045
+      projectPath: Library\Artifacts\d7\d7e68bb36d4d2b70f6da918d97244045
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d9\d9127d0a1b4aded86ff9992721b517e2
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d9\d9127d0a1b4aded86ff9992721b517e2
+      projectPath: Library\Artifacts\d9\d9127d0a1b4aded86ff9992721b517e2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d9\d97fb095040a3bdf31c58a058f3a149c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\d9\d97fb095040a3bdf31c58a058f3a149c
+      projectPath: Library\Artifacts\d9\d97fb095040a3bdf31c58a058f3a149c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\da\da357efdd1f66c291878c02adb9ad4eb
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\da\da357efdd1f66c291878c02adb9ad4eb
+      projectPath: Library\Artifacts\da\da357efdd1f66c291878c02adb9ad4eb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\da\da82bed3b2bae6f5e3715c69e2ed1a25
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\da\da82bed3b2bae6f5e3715c69e2ed1a25
+      projectPath: Library\Artifacts\da\da82bed3b2bae6f5e3715c69e2ed1a25
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\df\dfb38276b0ed2a838f1de4f0ed31722a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\df\dfb38276b0ed2a838f1de4f0ed31722a
+      projectPath: Library\Artifacts\df\dfb38276b0ed2a838f1de4f0ed31722a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e0\e0cd16729eaada917328137ed4951d98
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e0\e0cd16729eaada917328137ed4951d98
+      projectPath: Library\Artifacts\e0\e0cd16729eaada917328137ed4951d98
+      originalPath: Library\Artifacts\14\144e57c9cb8b74920d91ab05d8d3b4c4
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\e3\e374115c83f53f99d84636605e6683d3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e3\e374115c83f53f99d84636605e6683d3
+      projectPath: Library\Artifacts\e3\e374115c83f53f99d84636605e6683d3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e3\e3c796cba046a57fd25193307c2c13b1
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e3\e3c796cba046a57fd25193307c2c13b1
+      projectPath: Library\Artifacts\e3\e3c796cba046a57fd25193307c2c13b1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e4\e4efc48fee2c52f0869997497e4d9b5e
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e4\e4efc48fee2c52f0869997497e4d9b5e
+      projectPath: Library\Artifacts\e4\e4efc48fee2c52f0869997497e4d9b5e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\e4\e4f88544f642022d451ce270969077f3
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e4\e4f88544f642022d451ce270969077f3
+      projectPath: Library\Artifacts\e4\e4f88544f642022d451ce270969077f3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e5\e5b16dfb5b090262d2870dd83737d335
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e5\e5b16dfb5b090262d2870dd83737d335
+      projectPath: Library\Artifacts\e5\e5b16dfb5b090262d2870dd83737d335
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e7\e788d82e2c0029ab3507e704e743cf9f
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e7\e788d82e2c0029ab3507e704e743cf9f
+      projectPath: Library\Artifacts\e7\e788d82e2c0029ab3507e704e743cf9f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\e8\e8ba65a91f66a391124295f52823b4be
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e8\e8ba65a91f66a391124295f52823b4be
+      projectPath: Library\Artifacts\e8\e8ba65a91f66a391124295f52823b4be
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e9\e97088f39224e7d1877921164e0106bf
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\e9\e97088f39224e7d1877921164e0106bf
+      projectPath: Library\Artifacts\e9\e97088f39224e7d1877921164e0106bf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ea\eacb59d666487c0f400a67f309d39367
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ea\eacb59d666487c0f400a67f309d39367
+      projectPath: Library\Artifacts\ea\eacb59d666487c0f400a67f309d39367
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ed\ed87e904ed31764c37c03c1827072f18
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ed\ed87e904ed31764c37c03c1827072f18
+      projectPath: Library\Artifacts\ed\ed87e904ed31764c37c03c1827072f18
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ef\efd217fdfd61eb5252c6526f4c2af6fa
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ef\efd217fdfd61eb5252c6526f4c2af6fa
+      projectPath: Library\Artifacts\ef\efd217fdfd61eb5252c6526f4c2af6fa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f3\f3d8def1971d091ac27ae97bfdc166c8
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\f3\f3d8def1971d091ac27ae97bfdc166c8
+      projectPath: Library\Artifacts\f3\f3d8def1971d091ac27ae97bfdc166c8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f3\f3db8df97afe9d977d36c1e2e0bf76a2
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\f3\f3db8df97afe9d977d36c1e2e0bf76a2
+      projectPath: Library\Artifacts\f3\f3db8df97afe9d977d36c1e2e0bf76a2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f7\f7c3dccb87fe3bce1546fba2b4a43e36
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\f7\f7c3dccb87fe3bce1546fba2b4a43e36
+      projectPath: Library\Artifacts\f7\f7c3dccb87fe3bce1546fba2b4a43e36
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f8\f88a1ebea68b1de3e409ad543ced2042
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\f8\f88a1ebea68b1de3e409ad543ced2042
+      projectPath: Library\Artifacts\f8\f88a1ebea68b1de3e409ad543ced2042
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f9\f9076709a4e10946382e2638b688e661
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\f9\f9076709a4e10946382e2638b688e661
+      projectPath: Library\Artifacts\f9\f9076709a4e10946382e2638b688e661
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f9\f96c5ef85851c41d0be373b5a05e2a1d
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\f9\f96c5ef85851c41d0be373b5a05e2a1d
+      projectPath: Library\Artifacts\f9\f96c5ef85851c41d0be373b5a05e2a1d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\fc\fc1db33de2835dd6ff634c0e53b4d413
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\fc\fc1db33de2835dd6ff634c0e53b4d413
+      projectPath: Library\Artifacts\fc\fc1db33de2835dd6ff634c0e53b4d413
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\fc\fc2e6e50c2fa692a4fe911e94e39bef4
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\fc\fc2e6e50c2fa692a4fe911e94e39bef4
+      projectPath: Library\Artifacts\fc\fc2e6e50c2fa692a4fe911e94e39bef4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\fc\fc2ecf1b2e1ab56a91058f586f30a20a
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\fc\fc2ecf1b2e1ab56a91058f586f30a20a
+      projectPath: Library\Artifacts\fc\fc2ecf1b2e1ab56a91058f586f30a20a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\fd\fd5e83209da2c220b849c8b3d89c0468
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\fd\fd5e83209da2c220b849c8b3d89c0468
+      projectPath: Library\Artifacts\fd\fd5e83209da2c220b849c8b3d89c0468
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\fe\fe56083fb54f1d399eed5a5b50ec6766
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\fe\fe56083fb54f1d399eed5a5b50ec6766
+      projectPath: Library\Artifacts\fe\fe56083fb54f1d399eed5a5b50ec6766
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\ff\ffaafc6446b6b05a7cb144afb0258a6c
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\Artifacts\ff\ffaafc6446b6b05a7cb144afb0258a6c
+      projectPath: Library\Artifacts\ff\ffaafc6446b6b05a7cb144afb0258a6c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\0\01fd2a65861cf56939171100ebc690ba.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\0\01fd2a65861cf56939171100ebc690ba.bin
+      projectPath: Library\ShaderCache\0\01fd2a65861cf56939171100ebc690ba.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\0\090e41cc5eab10859917222ab7a01b36.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\0\090e41cc5eab10859917222ab7a01b36.bin
+      projectPath: Library\ShaderCache\0\090e41cc5eab10859917222ab7a01b36.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\0\09500a47fe735569c98a5dba68252d84.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\0\09500a47fe735569c98a5dba68252d84.bin
+      projectPath: Library\ShaderCache\0\09500a47fe735569c98a5dba68252d84.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\0\0d6d8513b1aecb5ad661cc45f7901682.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\0\0d6d8513b1aecb5ad661cc45f7901682.bin
+      projectPath: Library\ShaderCache\0\0d6d8513b1aecb5ad661cc45f7901682.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\2\26b13bec57c400716a8eb0aa03475e8c.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\2\26b13bec57c400716a8eb0aa03475e8c.bin
+      projectPath: Library\ShaderCache\2\26b13bec57c400716a8eb0aa03475e8c.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\2\26df317fbbe59be1ccb95fb342deb8be.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\2\26df317fbbe59be1ccb95fb342deb8be.bin
+      projectPath: Library\ShaderCache\2\26df317fbbe59be1ccb95fb342deb8be.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\3\3dbc0a4ef2fe510ca32d0d674f3f8e76.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\3\3dbc0a4ef2fe510ca32d0d674f3f8e76.bin
+      projectPath: Library\ShaderCache\3\3dbc0a4ef2fe510ca32d0d674f3f8e76.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\3\3fe262db6ab0bba54d998da631e66525.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\3\3fe262db6ab0bba54d998da631e66525.bin
+      projectPath: Library\ShaderCache\3\3fe262db6ab0bba54d998da631e66525.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\4\42f44975b71818eea2de2609d56a0809.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\4\42f44975b71818eea2de2609d56a0809.bin
+      projectPath: Library\ShaderCache\4\42f44975b71818eea2de2609d56a0809.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\4\45cbe5aecdc456e564a0f1336681a273.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\4\45cbe5aecdc456e564a0f1336681a273.bin
+      projectPath: Library\ShaderCache\4\45cbe5aecdc456e564a0f1336681a273.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\4\4b0db9e13735e19f28d40a58951fcd50.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\4\4b0db9e13735e19f28d40a58951fcd50.bin
+      projectPath: Library\ShaderCache\4\4b0db9e13735e19f28d40a58951fcd50.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\4\4d3c3e5816284dc4dd8d5867380182d1.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\4\4d3c3e5816284dc4dd8d5867380182d1.bin
+      projectPath: Library\ShaderCache\4\4d3c3e5816284dc4dd8d5867380182d1.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\5\5188c500a8af09efd90771571df1feec.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\5\5188c500a8af09efd90771571df1feec.bin
+      projectPath: Library\ShaderCache\5\5188c500a8af09efd90771571df1feec.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\5\544882b089b1421dc41a4c3ca206f8c9.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\5\544882b089b1421dc41a4c3ca206f8c9.bin
+      projectPath: Library\ShaderCache\5\544882b089b1421dc41a4c3ca206f8c9.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\5\5a50f874387901b896e1e2ec2fe3356e.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\5\5a50f874387901b896e1e2ec2fe3356e.bin
+      projectPath: Library\ShaderCache\5\5a50f874387901b896e1e2ec2fe3356e.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\5\5f9b250c8d17598295a1648b89d7445f.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\5\5f9b250c8d17598295a1648b89d7445f.bin
+      projectPath: Library\ShaderCache\5\5f9b250c8d17598295a1648b89d7445f.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\6\608d6d4a4d036389c33ce010a13f82fa.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\6\608d6d4a4d036389c33ce010a13f82fa.bin
+      projectPath: Library\ShaderCache\6\608d6d4a4d036389c33ce010a13f82fa.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\6\64ba3230ca2c8411deb6c274e7a81806.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\6\64ba3230ca2c8411deb6c274e7a81806.bin
+      projectPath: Library\ShaderCache\6\64ba3230ca2c8411deb6c274e7a81806.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\7\724148b4d4e2bcc56ca6e4706c1b69ef.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\7\724148b4d4e2bcc56ca6e4706c1b69ef.bin
+      projectPath: Library\ShaderCache\7\724148b4d4e2bcc56ca6e4706c1b69ef.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\7\736e7f20b74ad033c1a176b1294760c1.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\7\736e7f20b74ad033c1a176b1294760c1.bin
+      projectPath: Library\ShaderCache\7\736e7f20b74ad033c1a176b1294760c1.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\7\75e77198a4ad412a5a95434f4550133e.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\7\75e77198a4ad412a5a95434f4550133e.bin
+      projectPath: Library\ShaderCache\7\75e77198a4ad412a5a95434f4550133e.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\7\7874461137188a097eda434feae1a104.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\7\7874461137188a097eda434feae1a104.bin
+      projectPath: Library\ShaderCache\7\7874461137188a097eda434feae1a104.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\8\84809fb1958972c26549e53680a30afc.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\8\84809fb1958972c26549e53680a30afc.bin
+      projectPath: Library\ShaderCache\8\84809fb1958972c26549e53680a30afc.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\9\967d1a916bcb76a8d4f1936ea5503879.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\9\967d1a916bcb76a8d4f1936ea5503879.bin
+      projectPath: Library\ShaderCache\9\967d1a916bcb76a8d4f1936ea5503879.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\9\9adc98ce3bebd7116fcfa68d1e54fc57.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\9\9adc98ce3bebd7116fcfa68d1e54fc57.bin
+      projectPath: Library\ShaderCache\9\9adc98ce3bebd7116fcfa68d1e54fc57.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\a\a55edc2815e9440e6539a743622754d5.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\a\a55edc2815e9440e6539a743622754d5.bin
+      projectPath: Library\ShaderCache\a\a55edc2815e9440e6539a743622754d5.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\a\a598145ae931a5b53a622c60c7c330af.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\a\a598145ae931a5b53a622c60c7c330af.bin
+      projectPath: Library\ShaderCache\a\a598145ae931a5b53a622c60c7c330af.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\a\a9f6a2c158216a0ba19beb867b37ba5f.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\a\a9f6a2c158216a0ba19beb867b37ba5f.bin
+      projectPath: Library\ShaderCache\a\a9f6a2c158216a0ba19beb867b37ba5f.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\a\adef1c9016d067e32856a7ea52221304.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\a\adef1c9016d067e32856a7ea52221304.bin
+      projectPath: Library\ShaderCache\a\adef1c9016d067e32856a7ea52221304.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\a\aeb1fead0ad93582a5bff793975b4ad6.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\a\aeb1fead0ad93582a5bff793975b4ad6.bin
+      projectPath: Library\ShaderCache\a\aeb1fead0ad93582a5bff793975b4ad6.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\b\b2025b25296874df2bdeb7db5f767e4a.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\b\b2025b25296874df2bdeb7db5f767e4a.bin
+      projectPath: Library\ShaderCache\b\b2025b25296874df2bdeb7db5f767e4a.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\c\c156d2cd2346ba2fe2d4a4f03c23e705.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\c\c156d2cd2346ba2fe2d4a4f03c23e705.bin
+      projectPath: Library\ShaderCache\c\c156d2cd2346ba2fe2d4a4f03c23e705.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\c\c48395e4beaab7001155bfe65a41c03e.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\c\c48395e4beaab7001155bfe65a41c03e.bin
+      projectPath: Library\ShaderCache\c\c48395e4beaab7001155bfe65a41c03e.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\c\cce7361806d9dd8fbbf27c2639a64a9c.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\c\cce7361806d9dd8fbbf27c2639a64a9c.bin
+      projectPath: Library\ShaderCache\c\cce7361806d9dd8fbbf27c2639a64a9c.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\d\d0fd4791de4051a7e5f4e78577ef76af.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\d\d0fd4791de4051a7e5f4e78577ef76af.bin
+      projectPath: Library\ShaderCache\d\d0fd4791de4051a7e5f4e78577ef76af.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\d\d8026214444e02a79971f7ba24d8d358.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\d\d8026214444e02a79971f7ba24d8d358.bin
+      projectPath: Library\ShaderCache\d\d8026214444e02a79971f7ba24d8d358.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\e\e9042b8d1d8cc7cd331b8454f91c43bc.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\e\e9042b8d1d8cc7cd331b8454f91c43bc.bin
+      projectPath: Library\ShaderCache\e\e9042b8d1d8cc7cd331b8454f91c43bc.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\e\eed9ae978cd2c678a11cbde46d853ead.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\e\eed9ae978cd2c678a11cbde46d853ead.bin
+      projectPath: Library\ShaderCache\e\eed9ae978cd2c678a11cbde46d853ead.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\f\f195a34f9f361ba8f2b52b4a95cb4a90.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\f\f195a34f9f361ba8f2b52b4a95cb4a90.bin
+      projectPath: Library\ShaderCache\f\f195a34f9f361ba8f2b52b4a95cb4a90.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\f\f59bd810edf9b650e222f8b889b60e20.bin
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\ShaderCache\f\f59bd810edf9b650e222f8b889b60e20.bin
+      projectPath: Library\ShaderCache\f\f59bd810edf9b650e222f8b889b60e20.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\23\232146b288ff3568a6814a17b85d6f27.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\PrefabStageHierarchy\23\232146b288ff3568a6814a17b85d6f27.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\23\232146b288ff3568a6814a17b85d6f27.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\c2\c2e47e2356b8a82e94be15461aa2d1b3.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\PrefabStageHierarchy\c2\c2e47e2356b8a82e94be15461aa2d1b3.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\c2\c2e47e2356b8a82e94be15461aa2d1b3.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\d1\d112f81e6cd85081c20b1779230d7213.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\PrefabStageHierarchy\d1\d112f81e6cd85081c20b1779230d7213.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\d1\d112f81e6cd85081c20b1779230d7213.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\da\da4bb2fb4588877ca129f39bb1b5899f.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\PrefabStageHierarchy\da\da4bb2fb4588877ca129f39bb1b5899f.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\da\da4bb2fb4588877ca129f39bb1b5899f.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\24\24dfb5d04ea69474f9fa56ed16f6b2f8.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\SceneView\24\24dfb5d04ea69474f9fa56ed16f6b2f8.json
+      projectPath: Library\StateCache\SceneView\24\24dfb5d04ea69474f9fa56ed16f6b2f8.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\4a\4a44af955cc32429ceadfa7a963686c3.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\SceneView\4a\4a44af955cc32429ceadfa7a963686c3.json
+      projectPath: Library\StateCache\SceneView\4a\4a44af955cc32429ceadfa7a963686c3.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\88\88f86747c024217cdc0f239585c5e68f.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\SceneView\88\88f86747c024217cdc0f239585c5e68f.json
+      projectPath: Library\StateCache\SceneView\88\88f86747c024217cdc0f239585c5e68f.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\a2\a2b2b88a7ff5d4dc453be2a34c660a96.json
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\StateCache\SceneView\a2\a2b2b88a7ff5d4dc453be2a34c660a96.json
+      projectPath: Library\StateCache\SceneView\a2\a2b2b88a7ff5d4dc453be2a34c660a96.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\expandedItems
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: E:\dev\unity\mp08_uf3_game\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\ApiUpdaterCheck.txt
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\ApiUpdaterCheck.txt
+      projectPath: Logs\ApiUpdaterCheck.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-AssetImportWorker0.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-AssetImportWorker0.log
+      projectPath: Logs\shadercompiler-AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      fullPath: E:\dev\unity\mp08_uf3_game\Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: E:\dev\unity\mp08_uf3_game\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: E:\dev\unity\mp08_uf3_game\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: e3d63270400c085194b7b6a38fa0c70a661e55ef
     mergeA: 
     mergeB: 

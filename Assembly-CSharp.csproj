@@ -57,8 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CameraMovement.cs" />
-    <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\RotationController.cs" />
+    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\NewBlockGenerator.cs" />
+    <Compile Include="Assets\BlockBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
